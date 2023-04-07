@@ -31,6 +31,8 @@ Root is the root user's home folder. Unlike the regular 'home' folder, it does n
 The run folder contains everything that operates in RAM, which means its contents will be lost upon a system reboot or shutdown.
 
 ## snap:
+Snap packages are self-contained, easy-to-install applications developed and maintained by Canonical, the company behind Ubuntu. The snap folder stores the files related to installed Snap packages, including their executables, data, and dependencies. Snap packages can be used alongside traditional package management systems like APT but are not specific to Debian or Ubuntu.
+
 
 ## srv:
 The srv folder is the service directory where service data is stored. It will likely be empty, but if you run a server, all data will be stored here for external users to access, allowing for improved security.
